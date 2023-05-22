@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-sub {
+    width: 100%;
+    margin: 0 auto;
+    
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 15px;
+    
+    background-image: url('./assets/backgound-semLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container-title-sub{
+text-align: center;
+}
+
+.title-sub {
+    font-size: 225px;
+    color: #ffffff;
+    position: relative;
+    right: 150px;
+
+
+}
+
+.sub-title-sub {
+    font-size: 50px;
+    color: #ffffff;
+    padding-bottom: 60px;
+
+}
+
+.paragrafo-sub{
+
+    color: #ffffff;
+    padding-top: 4px;
+
+}

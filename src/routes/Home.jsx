@@ -177,7 +177,7 @@ validate: function (values) {
             </div>
 
             <div className="wrap-input">
-              <input className={formik.values.nome !== "" ? 'has-val input' : 'input'} type='text' name='nome' value={formik.values.nome.replace(/[^A-Za-z]/g, '')} onBlur={formik.handleBlur} onChange={formik.handleChange}/>
+              <input className={formik.values.nome !== "" ? 'has-val input' : 'input'} type='text' name='nome' value={formik.values.nome.replace(/\d/g, '')} onBlur={formik.handleBlur} onChange={formik.handleChange}/>
               <span className='focus-input' data-placeholder={CpfOuCnpj === 'CNPJ' ? 'Nome da empresa' : 'Nome'}></span>
               
             {formik.touched.nome && formik.values.nome.length < 3 && formik.values.nome !== "" && <span className='formField_error'>{formik.errors.nome}</span>}

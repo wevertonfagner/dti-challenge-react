@@ -1,1 +1,1 @@
-https://dti-challenge-react-mlnyaq46l-wevertonfagner.vercel.app/
+https://dti-challenge-react-eze044hsk-wevertonfagner.vercel.app/
